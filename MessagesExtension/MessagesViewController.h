@@ -7,7 +7,10 @@
 //
 
 #import <Messages/Messages.h>
+#import "LimitedViewController.h"
+#import "FullViewController.h"
 
-@interface MessagesViewController : MSMessagesAppViewController
+
+@interface MessagesViewController : MSMessagesAppViewController <FinishedProcessDelegate>
 
 @end
